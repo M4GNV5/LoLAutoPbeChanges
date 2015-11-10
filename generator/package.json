@@ -1,0 +1,12 @@
+{
+    "name": "LoLPBE",
+    "version": "0.0.1",
+    "description": "Automatically detect PBE changes",
+    "repository": "https://github.com/M4GNV5/LoLPBE.git",
+    "homepage": "https://github.com/M4GNV5/LoLPBE",
+    "author": "Jakob Löw <eragonjml@googlemail.com>",
+    "dependencies": {
+        "request": "^2.61.0"
+    },
+    "main": "main.js"
+}
