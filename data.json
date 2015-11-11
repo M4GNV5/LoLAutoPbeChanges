@@ -1,0 +1,1675 @@
+{
+    "champions": {
+        "Ryze": [
+            {
+                "title": "mp",
+                "before": 342.4,
+                "after": 392.4
+            },
+            {
+                "title": "mpperlevel",
+                "before": 55,
+                "after": 52
+            }
+        ],
+        "Sion": [
+            {
+                "title": "mp",
+                "before": 275.6,
+                "after": 325.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ],
+        "Karma": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Nautilus": [
+            {
+                "title": "mp",
+                "before": 284,
+                "after": 334
+            },
+            {
+                "title": "mpperlevel",
+                "before": 50,
+                "after": 47
+            }
+        ],
+        "Lux": [
+            {
+                "title": "mp",
+                "before": 334,
+                "after": 384
+            },
+            {
+                "title": "mpperlevel",
+                "before": 50,
+                "after": 47
+            }
+        ],
+        "Olaf": [
+            {
+                "title": "mp",
+                "before": 265.6,
+                "after": 315.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ],
+        "Anivia": [
+            {
+                "title": "mp",
+                "before": 346.04,
+                "after": 396.04
+            },
+            {
+                "title": "mpperlevel",
+                "before": 53,
+                "after": 50
+            }
+        ],
+        "Maokai": [
+            {
+                "title": "mp",
+                "before": 327.28,
+                "after": 377.28
+            },
+            {
+                "title": "mpperlevel",
+                "before": 46,
+                "after": 43
+            }
+        ],
+        "Morgana": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Evelynn": [
+            {
+                "title": "mp",
+                "before": 265.6,
+                "after": 315.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ],
+        "Fizz": [
+            {
+                "title": "Q - Urchin Strike",
+                "before": "Fizz dashes through his target, dealing normal attack damage plus 10/25/40/55/70 <span class=\"color99FF99\">(+0.35)</span> magic damage. This ability can trigger on-hit effects.",
+                "after": "Fizz dashes through his target, dealing normal attack damage plus 10/25/40/55/70 <span class=\"color99FF99\">(+0.35)</span> magic damage. This spell applies on-hit effects."
+            },
+            {
+                "title": "mp",
+                "before": 267.2,
+                "after": 317.2
+            },
+            {
+                "title": "mpperlevel",
+                "before": 40,
+                "after": 37
+            }
+        ],
+        "Sona": [
+            {
+                "title": "mpregen",
+                "before": 9,
+                "after": 11.5
+            }
+        ],
+        "KogMaw": [
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "80/130/180/230/280",
+                    "10/15/20/25/30",
+                    "12/16/20/24/28",
+                    "4"
+                ],
+                "after": [
+                    "",
+                    "80/130/180/230/280",
+                    "15/20/25/30/35",
+                    "12/16/20/24/28",
+                    "4",
+                    "1",
+                    "1",
+                    "100"
+                ]
+            },
+            {
+                "title": "Q - Caustic Spittle",
+                "before": "<span class=\"colorFF9900\">Passive:</span> Increases Attack Speed by 10/15/20/25/30%.<br><br><span class=\"colorFF9900\">Active: </span>Launches a corrosive projectile that deals 80/130/180/230/280 <span class=\"color99FF99\">(+0.5)</span> Magic Damage to the first enemy hit and reduces its Armor and Magic Resist by 12/16/20/24/28% for 4 seconds.",
+                "after": "<span class=\"colorFF9900\">Passive:</span> Kog'Maw gains 15/20/25/30/35% bonus Attack Speed.<br><br><span class=\"colorFF9900\">Active:</span> Launches a corrosive projectile that deals 80/130/180/230/280 <span class=\"color99FF99\">(+0.5)</span> Magic Damage to the first enemy hit and reduces its Armor and Magic Resist by 12/16/20/24/28% for 4 seconds."
+            },
+            {
+                "title": "W - Cooldown",
+                "before": "17",
+                "after": "13/11.5/10/8.5/7"
+            },
+            {
+                "title": "W - Cost",
+                "before": "0",
+                "after": "40"
+            },
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "130/150/170/190/210",
+                    "2/3/4/5/6",
+                    "8"
+                ],
+                "after": [
+                    "",
+                    "90/120/150/180/210",
+                    "2",
+                    "6",
+                    "100",
+                    "55",
+                    "100"
+                ]
+            },
+            {
+                "title": "W - Bio-Arcane Barrage",
+                "before": "Basic attacks gain 130/150/170/190/210 range and deal additional Magic Damage equal to 2/3/4/5/6% <span class=\"color99FF99\">(+0.01)%</span> of the enemy's maximum Health (Max: 100 Damage vs Monsters). Lasts 8 seconds.",
+                "after": "For 6 seconds, Kog'Maw's basic attacks:<br><li>Gain 90/120/150/180/210 attack range.<br>Gain 100% Total Attack Speed, and his spell cast times are halved.<br>Deal 55% damage to non minions.<br>Deal <span class=\"colorFF8C00\">{{ f2 }}%</span> <span class=\"color99FF99\">(+{{ f1 }})%</span> of the target's maximum health as additional magic damage.</li><br><span class=\"colorFFF673\">During this time, Kog'Maw's Attack Speed cap is doubled.</span>"
+            },
+            {
+                "title": "E - Void Ooze",
+                "before": "Deals 60/110/160/210/260 <span class=\"color99FF99\">(+0.7)</span> Magic Damage to enemies it passes through and leaves a trail which slows enemies by 20/28/36/44/52% for 4 seconds.",
+                "after": "Deals 60/110/160/210/260 <span class=\"color99FF99\">(+0.7)</span> Magic Damage to enemies it passes through and leaves a trail on the ground for 4 seconds, briefly slowing enemies in it by 20/28/36/44/52%."
+            },
+            {
+                "title": "R - Cost",
+                "before": "40",
+                "after": "50"
+            },
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "80/120/160",
+                    "1200/1500/1800",
+                    "100",
+                    "6",
+                    "400"
+                ],
+                "after": [
+                    "",
+                    "70/110/150",
+                    "1200/1500/1800",
+                    "",
+                    "10",
+                    "500",
+                    "2"
+                ]
+            },
+            {
+                "title": "R - Living Artillery",
+                "before": "Fires a living artillery shot from a great distance that lands shortly after launch. Deals 80/120/160 <span class=\"colorFF8C00\">(+0.5)</span> <span class=\"color99FF99\">(+0.3)</span> Magic Damage and reveals non-stealthed enemies for 4 seconds (deals 100% bonus base damage to Champions).<br><br>Subsequent artillery shots within 6 seconds 40 40 additional Mana up to a maximum of 400 Mana.",
+                "after": "Fires an artillery shot, dealing magic damage based on the target's missing health, revealing them for 2 seconds. The 50 of subsequent shots within 10 seconds increases by {{ 50 }} Mana (max 500).<br><br>Damage Dealt:<br><li>70/110/150 <span class=\"colorFF8C00\">(+0.65)</span> <span class=\"color99FF99\">(+0.25)</span> to targets above 50% Health<br>0.5 <span class=\"colorFF8C00\">(+{{ f3 }})</span> <span class=\"color99FF99\">(+{{ f2 }})</span> to targets at 25%-50% Health<br>{{ f4 }} <span class=\"colorFF8C00\">(+{{ f6 }})</span> <span class=\"color99FF99\">(+{{ f5 }})</span> to targets below 25% Health"
+            },
+            {
+                "title": "attackdamage",
+                "before": 49.04,
+                "after": 54.46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            },
+            {
+                "title": "attackspeedoffset",
+                "before": -0.06,
+                "after": 0
+            },
+            {
+                "title": "attackspeedperlevel",
+                "before": 2.65,
+                "after": 1.5
+            },
+            {
+                "title": "hp",
+                "before": 546.16,
+                "after": 517.76
+            },
+            {
+                "title": "hpperlevel",
+                "before": 87,
+                "after": 82
+            }
+        ],
+        "Ashe": [
+            {
+                "title": "Q - Cooldown",
+                "before": "18",
+                "after": "0"
+            },
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "20",
+                    "5",
+                    "4",
+                    "20/25/30/35/40",
+                    "0.23/0.24/0.25/0.26/0.27",
+                    "1.15/1.2/1.25/1.3/1.35"
+                ],
+                "after": [
+                    "",
+                    "4",
+                    "5",
+                    "4",
+                    "20/25/30/35/40",
+                    "0.23/0.24/0.25/0.26/0.27",
+                    "1.15/1.2/1.25/1.3/1.35",
+                    "1"
+                ]
+            },
+            {
+                "title": "Q - Ranger's Focus",
+                "before": "<span class=\"colorFF9900\">Passive: </span>Hitting a spell or attack grants Focus for 4 seconds, stacking up to 5 times.<br><br><span class=\"colorFF9900\">Active: </span>Consumes all Focus to grant 20/25/30/35/40% Attack Speed and an additional 20% slow to Frost Shot for 4 seconds. If 5 stacks are consumed, Ashe's basic attacks fire a flurry of arrows resulting in <span class=\"colorFF8C00\">{{ f1 }}</span> physical damage per attack for the duration.",
+                "after": "<span class=\"colorFF9900\">Passive: </span>Basic attacks grant Focus for 4 seconds, stacking up to 5 times. At 5 stacks, Ranger's Focus can be cast, consuming all Focus.<br><br><span class=\"colorFF9900\">Active: </span> For 4 seconds, Ashe gains 20/25/30/35/40% Attack Speed, and her basic attacks fire a flurry of arrows resulting in <span class=\"colorFF8C00\">{{ f1 }}</span> physical damage per attack. During this time, she does not stack Focus."
+            },
+            {
+                "title": "W - Volley",
+                "before": "Fires arrows in a cone, each dealing 20/35/50/65/80 <span class=\"colorFF8C00\">(+1)</span> physical damage.<br><br>Enemies can block multiple arrows from Volley, but will only take damage from the first.",
+                "after": "Fires arrows in a cone, each dealing 20/35/50/65/80 <span class=\"colorFF8C00\">(+1)</span> physical damage.<br><br>Champion hits count as Critical Strikes for the purposes of Frost Shot.<br>Enemies can block multiple arrows, but only take damage from the first."
+            },
+            {
+                "title": "attackdamage",
+                "before": 51.088,
+                "after": 56.508
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 2.85,
+                "after": 2.26
+            },
+            {
+                "title": "mp",
+                "before": 231.8,
+                "after": 280
+            },
+            {
+                "title": "mpperlevel",
+                "before": 35,
+                "after": 32
+            }
+        ],
+        "Lulu": [
+            {
+                "title": "mpregen",
+                "before": 8.5,
+                "after": 11
+            }
+        ],
+        "Alistar": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Vayne": [
+            {
+                "title": "Q - Damage"
+            },
+            {
+                "title": "Q - Tumble",
+                "before": "Rolls a short distance. The next basic attack within 6 seconds deals <span class=\"colorFF8C00\">0.3/0.35/0.4/0.45/0.5</span> bonus physical damage, equal to 30/35/40/45/50% of total Attack Damage.",
+                "after": "Rolls a short distance. The next basic attack within 7 seconds deals <span class=\"colorFF8C00\">0.3/0.35/0.4/0.45/0.5</span> bonus physical damage, equal to 30/35/40/45/50% of total Attack Damage."
+            },
+            {
+                "title": "W - Damage"
+            },
+            {
+                "title": "W - Silver Bolts",
+                "before": "Every third consecutive attack or ability against an enemy deals an additional 20/30/40/50/60 plus 4/5/6/7/8% of the enemy's maximum Health as true damage. (Max: 200 damage vs. Monsters)",
+                "after": "Every third consecutive attack or ability against an enemy deals an additional 6/7.5/9/10.5/12% of the enemy's maximum Health as true damage.<br><br>Deals a maximum of 200 damage vs. Monsters and a minimum of 40/60/80/100/120 damage vs. all targets."
+            },
+            {
+                "title": "attackdamage",
+                "before": 50.46,
+                "after": 55.88
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3.25,
+                "after": 1.66
+            }
+        ],
+        "Varus": [
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "150/250/350"
+                ],
+                "after": [
+                    "",
+                    "100/175/250",
+                    "2"
+                ]
+            },
+            {
+                "title": "R - Chain of Corruption",
+                "before": " Varus flings out a tendril of corruption that deals 150/250/350 <span class=\"color99FF99\">(+1)</span> magic damage and immobilizes the first enemy champion hit for 2 seconds.<br><br>The corruption then spreads towards nearby uninfected enemy champions, applying the same damage and immobilize if it reaches them.",
+                "after": " Varus flings out a tendril of corruption that deals 100/175/250 <span class=\"color99FF99\">(+1)</span> magic damage and immobilizes the first enemy champion hit for 2 seconds.<br><br>The corruption then spreads towards nearby uninfected enemy champions. If it reaches them, they take the same damage, are also immobilized. Immobilized units gain 3 Blight stacks over the duration."
+            },
+            {
+                "title": "attackdamage",
+                "before": 49.04,
+                "after": 54.66
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            },
+            {
+                "title": "mp",
+                "before": 310.48,
+                "after": 360.48
+            },
+            {
+                "title": "mpperlevel",
+                "before": 36,
+                "after": 33
+            }
+        ],
+        "Jayce": [
+            {
+                "title": "mp",
+                "before": 307.2,
+                "after": 357.2
+            },
+            {
+                "title": "mpperlevel",
+                "before": 40,
+                "after": 37
+            }
+        ],
+        "Syndra": [
+            {
+                "title": "mp",
+                "before": 334,
+                "after": 384
+            },
+            {
+                "title": "mpperlevel",
+                "before": 63,
+                "after": 60
+            }
+        ],
+        "Pantheon": [
+            {
+                "title": "mp",
+                "before": 267.12,
+                "after": 317.12
+            },
+            {
+                "title": "mpperlevel",
+                "before": 34,
+                "after": 31
+            }
+        ],
+        "Corki": [
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "60/90/120/150/180",
+                    "100/90/80/70/60",
+                    "20/18/16/14/12"
+                ],
+                "after": [
+                    "",
+                    "60/90/120/150/180",
+                    "90",
+                    "",
+                    "4"
+                ]
+            },
+            {
+                "title": "W - Valkyrie",
+                "before": "Corki surges to target location, dealing 60/90/120/150/180 <span class=\"color99FF99\">(+0.4)</span> magic damage per second to enemies in the fire left along his path.",
+                "after": "<span class=\"colorFF9900\">Active:</span> Corki flies a short distance, dealing 60/90/120/150/180 <span class=\"color99FF99\">(+0.4)</span> magic damage per second to enemies in the fire left along his path.<br><br><span class=\"colorFF9900\">Special Delivery:</span> Corki flies a great distance, dropping bombs that knock aside enemies and leave a burning trail for 5 seconds. The trail slows enemies by 90% and burns them for {{ f1 }} <span class=\"colorFF8C00\">(+{{ f2 }})</span> <span class=\"color99FF99\">(+0.2)</span> magic damage per second."
+            },
+            {
+                "title": "E - Damage"
+            },
+            {
+                "title": "E - Gatling Gun",
+                "before": "Corki's gatling gun fires at all targets in front of him for 4 seconds, dealing 20/32/44/56/68<span class=\"colorFF8C00\"> (+0.4) </span>physical damage and reducing 2/4/6/8/10 Armor per second. The Armor reduction stacks and lasts 2 seconds.",
+                "after": "Corki's gatling gun fires in front of him for 4 seconds, dealing 20/32/44/56/78<span class=\"colorFF8C00\"> (+0.4)</span> damage (half physical, half magic), and reducing 1/2/3/4/5 Armor and Magic Resist per second. The Armor and Magic Resist reductions stack and last 2 seconds."
+            },
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "100/180/260",
+                    "20/30/40",
+                    "50",
+                    "2",
+                    "0.2/0.3/0.4",
+                    "20/30/40"
+                ],
+                "after": [
+                    "",
+                    "100/130/160",
+                    "20/50/80",
+                    "",
+                    "2",
+                    "0.2/0.5/0.8",
+                    "",
+                    "1.5",
+                    "50",
+                    "200"
+                ]
+            },
+            {
+                "title": "R - Missile Barrage",
+                "before": "Corki fires a missile toward his targeted location that will collide with the first enemy it hits. Each missile deals 100/180/260 <span class=\"colorFF8C00\">0.2/0.3/0.4</span> <span class=\"color99FF99\">(+0.3)</span> area magic damage.<br><br>Corki reloads a missile every <span class=\"colorFFFFFF\">10</span> seconds, up to 7 missiles at any given time.<br><br>Every 3rd missile will be a Big One, dealing 50% extra damage.",
+                "after": "<span class=\"colorFF9900\">Active:</span> Corki fires a missile that explodes at the first enemy it hits, dealing 100/130/160 <span class=\"colorFF8C00\">0.2/0.5/0.8</span> <span class=\"color99FF99\">(+0.3)</span> magic damage to all nearby enemies.<br><br>Corki can store up to 7 missiles, and every 3rd missile will be a Big One, dealing 50% increased damage."
+            },
+            {
+                "title": "attackdamage",
+                "before": 51.24,
+                "after": 56
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.5
+            },
+            {
+                "title": "mp",
+                "before": 305.16,
+                "after": 350.16
+            },
+            {
+                "title": "mpperlevel",
+                "before": 37,
+                "after": 34
+            }
+        ],
+        "Azir": [
+            {
+                "title": "Q - Cooldown",
+                "before": "10/9/8/7/6",
+                "after": "0"
+            },
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "65/85/105/125/145",
+                    "25"
+                ],
+                "after": [
+                    "",
+                    "65/85/105/125/145",
+                    "25",
+                    "10/9/8/7/6",
+                    "70"
+                ]
+            },
+            {
+                "title": "E - Cooldown",
+                "before": "19/18/17/16/15",
+                "after": "0"
+            },
+            {
+                "title": "E - Damage",
+                "before": [
+                    "",
+                    "0.5",
+                    "19/18/17/16/15",
+                    "60/90/120/150/180",
+                    "80/120/160/200/240",
+                    "-0.5/-0.6/-0.7/-0.8/-0.9",
+                    "4",
+                    "1100"
+                ],
+                "after": [
+                    "",
+                    "0.5",
+                    "19/18/17/16/15",
+                    "60/90/120/150/180",
+                    "80/120/160/200/240",
+                    "-0.5/-0.6/-0.7/-0.8/-0.9",
+                    "4",
+                    "1100",
+                    "60"
+                ]
+            }
+        ],
+        "Caitlyn": [
+            {
+                "title": "Q - Cost",
+                "before": "50/60/70/80/90",
+                "after": "60/70/80/90/55"
+            },
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "20/60/100/140/180",
+                    "10",
+                    "50",
+                    "1"
+                ]
+            },
+            {
+                "title": "Q - Piltover Peacemaker",
+                "before": "Revs the rifle for 1 second to fire a piercing shot dealing 20/60/100/140/180 <span class=\"colorFF8C00\">(+1.3)</span> physical damage. Deals 10% less damage to each subsequent target down to a minimum of 50%.",
+                "after": "Revs the rifle for {{ e4 }} second to fire a narrow piercing shot dealing {{ e1 }} <span class=\"colorFF8C00\">(+{{ f1 }})</span> physical damage. After hitting any target, it opens into a wider shot that deals {{ e2 }}% less damage. <br><br>Always deals full damage to trap revealed targets."
+            },
+            {
+                "title": "W - Cooldown",
+                "before": "16/14/12/10/8",
+                "after": "0.5"
+            },
+            {
+                "title": "W - Cost",
+                "before": "30",
+                "after": "20/20/20/20/0"
+            },
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "2",
+                    "80/130/180/230/280",
+                    "1.5",
+                    "4"
+                ]
+            },
+            {
+                "title": "W - Yordle Snap Trap",
+                "before": "Sets a trap that an enemy Champion can spring immobilizing and revealing them for a short duration. The trap deals 80/130/180/230/280 <span class=\"color99FF99\">(+0.6)</span> magic damage over 1.5 seconds, and lasts for 4 minutes. Only 3 traps may be active at once.",
+                "after": "Sets traps that an enemy Champion can spring, immobilizing them for {{ e1 }} seconds and revealing them for a short duration.<br><br>Traps last for {{ e3 }} seconds. {{ e5 }} traps may be active at once.<br><br>Trapped enemies take {{ e6 }}% increased damage from Headshot."
+            },
+            {
+                "title": "E - Cost",
+                "before": "75",
+                "after": "75/75/75/75/90"
+            },
+            {
+                "title": "E - Damage",
+                "before": [
+                    "",
+                    "80/130/180/230/280",
+                    "1/1.25/1.5/1.75/2",
+                    "50"
+                ]
+            },
+            {
+                "title": "E - 90 Caliber Net",
+                "before": "Fires a net dealing 80/130/180/230/280 <span class=\"color99FF99\">(+0.8)</span> magic damage and slowing an enemy by 50% for 1/1.25/1.5/1.75/2 second(s). Knocks Caitlyn back.",
+                "after": "Fires a net, knocking Caitlyn backwards. The net deals {{ e1 }} <span class=\"color99FF99\">(+0.8)</span> magic damage and slows the first enemy hit by {{ e3 }}% for {{ e2 }} second."
+            },
+            {
+                "title": "R - Cost",
+                "before": "100",
+                "after": "100/100/0"
+            },
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "250/475/700",
+                    "2000/2500/3000"
+                ]
+            },
+            {
+                "title": "R - Ace in the Hole",
+                "before": "Takes a second to line up the perfect shot, firing a bullet at an enemy Champion dealing 250/475/700 <span class=\"colorFF8C00\">(+2)</span> physical damage at 2000/2500/3000 range. Other enemy Champions can intercept the bullet.",
+                "after": "Takes a second to line up the perfect shot on an enemy Champion at up to 2000 range. The shot deals {{ e1 }} <span class=\"colorFF8C00\">(+2)</span> physical damage, but other enemy Champions can intercept it."
+            },
+            {
+                "title": "attackdamage",
+                "before": 50.04,
+                "after": 53.66
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.18
+            },
+            {
+                "title": "attackspeedoffset",
+                "before": 0,
+                "after": 0.1
+            }
+        ],
+        "Galio": [
+            {
+                "title": "mp",
+                "before": 319,
+                "after": 369
+            },
+            {
+                "title": "mpperlevel",
+                "before": 50,
+                "after": 47
+            }
+        ],
+        "Veigar": [
+            {
+                "title": "Q - Baleful Strike",
+                "before": "<span class=\"colorFF9900\">Active: </span>Unleashes a bolt of dark energy, dealing 70/110/150/190/230 <span class=\"color99FF99\">(+0.6)</span> magic damage to the first two enemies hit. For each target killed, Veigar gains 1 ability power. This bonus is doubled against Champions, large minions and large monsters.<br><br><span class=\"colorFF9900\">Passive: </span>Veigar gains 1/2/3/4/5 ability power on champion kills and assists.<br><br>Ability power bonus: <span class=\"color5555FF\">+1</span>",
+                "after": "<span class=\"colorFF9900\">Active: </span>Unleashes a bolt of dark energy, dealing 70/110/150/190/230 <span class=\"color99FF99\">(+0.6)</span> magic damage to the first two enemies hit. For each target killed, Veigar gains 1 ability power. This bonus is doubled against champions, large minions and large monsters.<br><br><span class=\"colorFF9900\">Passive: </span>Veigar gains 1/2/3/4/5 ability power on champion kills and assists.<br><br>Ability power bonus: <span class=\"color5555FF\">+1</span>"
+            },
+            {
+                "title": "mp",
+                "before": 342.4,
+                "after": 392.4
+            },
+            {
+                "title": "mpperlevel",
+                "before": 55,
+                "after": 52
+            }
+        ],
+        "Graves": [
+            {
+                "title": "Q - Cooldown",
+                "before": "12/11/10/9/8",
+                "after": "14/13/12/11/10"
+            },
+            {
+                "title": "Q - Cost",
+                "before": "60/70/80/90/100",
+                "after": "55/60/65/70/0"
+            },
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "60/90/120/150/180",
+                    "40/50/60/70/80",
+                    "7",
+                    "50"
+                ]
+            },
+            {
+                "title": "Q - End of the Line",
+                "before": "Shoots three bullets in a cone, each dealing 60/90/120/150/180<span class=\"colorFF8C00\"> (+0.8)</span> physical damage to all enemies in their path. Enemies hit with multiple bullets take 50% damage from each additional bullet.",
+                "after": "Fires a powder round that deals {{ e1 }}<span class=\"colorFF8C00\"> (+{{ f1 }})</span> physical damage to enemies in a line.<br><br>After 2 seconds, or on collision with terrain, the round detonates, dealing {{ e2 }}<span class=\"colorFF8C00\"> (+{{ f2 }})</span> physical damage to all nearby enemies."
+            },
+            {
+                "title": "W - Cooldown",
+                "before": "20/19/18/17/16",
+                "after": "26/24/22/20/18"
+            },
+            {
+                "title": "W - Cost",
+                "before": "70/75/80/85/90",
+                "after": "75/80/85/90/0"
+            },
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "60/110/160/210/260",
+                    "15/20/25/30/35",
+                    "",
+                    "4"
+                ]
+            },
+            {
+                "title": "W - Smoke Screen",
+                "before": "Deals 60/110/160/210/260 <span class=\"color99FF99\">(+0.6)</span> magic damage on impact and creates a smoke cloud that lasts 4 seconds. Enemies inside the cloud are slowed by 15/20/25/30/35% and have their sight radius reduced.",
+                "after": "Creates a cloud of Black Smoke lasting 4 seconds. Enemies inside Black Smoke cannot see out.<br><br>Deals {{ e1 }} <span class=\"color99FF99\">(+0.6)</span> magic damage and slows by {{ e2 }}% on impact."
+            },
+            {
+                "title": "E - Cooldown",
+                "before": "22/20/18/16/14",
+                "after": "18/17/16/15/14"
+            },
+            {
+                "title": "E - Cost",
+                "before": "40",
+                "after": "40/40/40/40/0"
+            },
+            {
+                "title": "E - Damage",
+                "before": [
+                    "",
+                    "30/40/50/60/70",
+                    "4",
+                    "20/25/30/35/40",
+                    "1"
+                ]
+            },
+            {
+                "title": "E - Quickdraw",
+                "before": "Dashes forward, gaining 30/40/50/60/70% increased Attack Speed for 4 seconds. Basic attacks lower the cooldown of Quickdraw by 1 second.",
+                "after": "Dashes in a direction, reloading one shell. For 4 seconds, Graves gains <span class=\"colorFFF673\">True Grit</span>.<br><br>Basic attack hits lower the cooldown of Quickdraw by {{ e4 }} seconds and, against non-minions, also refresh <span class=\"colorFFF673\">True Grit</span>.<br><br><span class=\"colorFFF673\">True Grit</span> grants {{ e5 }} Armor and Magic Resist (stacks up to 4 times)."
+            },
+            {
+                "title": "R - Cost",
+                "before": "100",
+                "after": "100/100/0"
+            },
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "250/400/550",
+                    "200/320/440"
+                ]
+            },
+            {
+                "title": "R - Collateral Damage",
+                "before": "Fires an explosive shell that deals 250/400/550<span class=\"colorFF8C00\"> (+1.5)</span> physical damage to the first enemy hit. After hitting an enemy Champion or reaching the end of its range, the shell explodes, dealing 200/320/440<span class=\"colorFF8C00\"> (+1.2)</span> physical damage in a cone.",
+                "after": "Fires an explosive shell with such force that it knocks Graves back. The shell deals {{ e1 }}<span class=\"colorFF8C00\"> (+{{ f1 }})</span> physical damage to the first enemy hit. After hitting an enemy Champion or reaching the end of its range, the shell explodes, dealing {{ e2 }}<span class=\"colorFF8C00\"> (+{{ f2 }})</span> physical damage in a cone."
+            },
+            {
+                "title": "armorperlevel",
+                "before": 3.2,
+                "after": 3.4
+            },
+            {
+                "title": "attackdamage",
+                "before": 54.208,
+                "after": 60.83
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3.1,
+                "after": 2.41
+            },
+            {
+                "title": "attackrange",
+                "before": 525,
+                "after": 425
+            },
+            {
+                "title": "attackspeedoffset",
+                "before": 0,
+                "after": 0.3
+            },
+            {
+                "title": "attackspeedperlevel",
+                "before": 2.9,
+                "after": 2.6
+            },
+            {
+                "title": "movespeed",
+                "before": 330,
+                "after": 345
+            }
+        ],
+        "Irelia": [
+            {
+                "title": "mp",
+                "before": 288.8,
+                "after": 338.8
+            },
+            {
+                "title": "mpperlevel",
+                "before": 35,
+                "after": 32
+            }
+        ],
+        "Elise": [],
+        "Jax": [
+            {
+                "title": "mp",
+                "before": 288.8,
+                "after": 338.8
+            },
+            {
+                "title": "mpperlevel",
+                "before": 35,
+                "after": 32
+            }
+        ],
+        "Kalista": [
+            {
+                "title": "attackdamage",
+                "before": 57.5,
+                "after": 62.92
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3.5,
+                "after": 2.91
+            },
+            {
+                "title": "attackspeedoffset",
+                "before": -0.05,
+                "after": -0.1
+            },
+            {
+                "title": "attackspeedperlevel",
+                "before": 3.3,
+                "after": 2.8
+            }
+        ],
+        "TahmKench": [
+            {
+                "title": "mpregen",
+                "before": 5.5,
+                "after": 8
+            }
+        ],
+        "Brand": [
+            {
+                "title": "mp",
+                "before": 325.6,
+                "after": 375.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ],
+        "Quinn": [
+            {
+                "title": "Q - Cost",
+                "before": "50/55/60/65/70",
+                "after": "50"
+            },
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "70/110/150/190/230",
+                    "1.5"
+                ],
+                "after": [
+                    "",
+                    "20/45/70/95/120",
+                    "5.5/5/4.5/4/3.5",
+                    "50",
+                    "40/90/140/190/240",
+                    "0.7/0.75/0.8/0.85/0.9",
+                    "1.4/1.5/1.6/1.7/1.8"
+                ]
+            },
+            {
+                "title": "Q - Aerial Assault",
+                "before": "Valor flies in a line and strikes the first enemy in his path. He then attacks all nearby enemies, dealing 70/110/150/190/230 <span class=\"colorFF9900\">(+0.65)</span> <span class=\"color99FF99\">(+0.5)</span> physical damage and blinding them for 1.5 seconds.<br><br><span class=\"colorFF9900\">As Valor: </span>Performs the same attack at the current location.",
+                "after": "Valor flies in a line, stopping at the first enemy hit and marking it as <span class=\"colorFFF673\">Vulnerable</span>. Valor then deals 20/45/70/95/120 <span class=\"colorFF9900\">(+{{ f2 }})</span> <span class=\"color99FF99\">(+0.35)</span> to 40/90/140/190/240 <span class=\"colorFF9900\">(+{{ f3 }})</span> <span class=\"color99FF99\">(+0.7)</span> physical damage to all nearby enemies based on their missing Health.<br><br>If Aerial Assault kills a unit, half the cooldown is refunded."
+            },
+            {
+                "title": "W - Damage"
+            },
+            {
+                "title": "W - Heightened Senses",
+                "before": "<span class=\"colorFF9900\">Passive: </span>Attacking a Vulnerable target will increase Quinn's Attack Speed by 20/25/30/35/40% and Movement Speed by 20/30/40/50/60 for 3 seconds.<br><br><span class=\"colorFF9900\">Passive as Valor: </span>Gains 40/50/60/70/80% Attack Speed.<br><br><span class=\"colorFF9900\">Active: </span>Valor reveals a large area nearby for 2 seconds (does not reveal stealthed units).",
+                "after": "<span class=\"colorFF9900\">Passive:</span> Attacking a <span class=\"colorFFF673\">Vulnerable</span> target increases Attack Speed and Movement Speed by 20/25/30/35/40% for 2 seconds.<br><br><span class=\"colorFF9900\">Active:</span> Valor reveals a large area nearby for 2 seconds."
+            },
+            {
+                "title": "E - Damage"
+            },
+            {
+                "title": "E - Vault",
+                "before": "Quinn dashes to an enemy, dealing 40/70/100/130/160 <span class=\"colorFF8C00\">(+0.2)</span> physical damage and slowing the target's Movement Speed by 50% (this effect diminishes over 2 seconds).<br><br>Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range from the target. Valor will immediately mark this enemy as Vulnerable.<br><br><span class=\"colorFF9900\">As Valor: </span>Performs the same attack but does not mark or leap off the target.",
+                "after": "Quinn dashes to an enemy, dealing 40/70/100/130/160 <span class=\"colorFF8C00\">(+0.2)</span> physical damage while Valor marks it as <span class=\"colorFFF673\">Vulnerable</span>.<br><br>Upon reaching the target, Quinn leaps off, briefly displacing and slowing it by 50% (diminishing over 1.5 seconds)."
+            },
+            {
+                "title": "R - Cooldown",
+                "before": "140/110/80",
+                "after": "0"
+            },
+            {
+                "title": "R - Cost",
+                "before": "100",
+                "after": "100/50/0"
+            },
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "25",
+                    "100/150/200",
+                    "80/90/100",
+                    "20",
+                    "20/30/40",
+                    "200/300/400"
+                ],
+                "after": [
+                    "",
+                    "15/20/25",
+                    "",
+                    "70/100/130",
+                    "25000",
+                    "7",
+                    "8",
+                    "100/50/0"
+                ]
+            },
+            {
+                "title": "R - Tag Team",
+                "before": "<span class=\"colorFF9900\">First Cast: </span>Valor replaces Quinn on the battlefield as a mobile melee attacker for 20 seconds. Valor can move through units and gains +80/90/100% Movement Speed, decreased gradually to +20/30/40% when in combat.<br><br><span class=\"colorFF9900\">Second Cast: </span>Quinn returns to perform Skystrike, dealing from 100/150/200 <span class=\"colorFF8C00\">(+0.5)</span> to 200/300/400 <span class=\"colorFF8C00\">(+1)</span> physical damage to all enemies in a large area, increasing based on how much health they are missing.<br><br>If Skystrike has not been cast before this ability ends, it will be cast automatically.",
+                "after": "Quinn calls down Valor to assist her. After a 2 second channel, they unite, gaining 70/100/130% Total Movement Speed and the ability to cast Skystrike by ending Tag Team or taking offensive action.<br><br>Taking champion or turret damage puts Tag Team on a 3 second cooldown."
+            },
+            {
+                "title": "attackdamage",
+                "before": 51.04,
+                "after": 56.46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            }
+        ],
+        "Tristana": [
+            {
+                "title": "Q - Cooldown",
+                "before": "20",
+                "after": "20/19/18/17/16"
+            },
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "30/50/70/90/110",
+                    "5",
+                    "1",
+                    "0.5"
+                ],
+                "after": [
+                    "",
+                    "30/50/70/90/110",
+                    "5"
+                ]
+            },
+            {
+                "title": "Q - Rapid Fire",
+                "before": "<span class=\"colorFF9900\">Passive: </span>Rapid Fire's cooldown is reduced by 1 seconds each time Tristana basic attacks an enemy marked with Explosive Charge.<br><br>Explosive Charge's cooldown is reduced by 0.5 seconds each time Tristana basic attacks an enemy when her Rapid Fire is active (doubled effect against champions).<br><br><span class=\"colorFF9900\">Active: </span>Increases Tristana's Attack Speed by 30/50/70/90/110% for 5 seconds.",
+                "after": "<span class=\"colorFF9900\">Active: </span>Increases Tristana's Attack Speed by 30/50/70/90/110% for 5 seconds."
+            },
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "80/105/130/155/180",
+                    "22/20/18/16/14",
+                    "1/1.5/2/2.5/3",
+                    "0.2",
+                    "0.2"
+                ],
+                "after": [
+                    "",
+                    "60/110/160/210/260",
+                    "22/20/18/16/14",
+                    "1/1.5/2/2.5/3",
+                    "50"
+                ]
+            },
+            {
+                "title": "W - Rocket Jump",
+                "before": "Tristana fires at the ground to propel her to target location, dealing 80/105/130/155/180 <span class=\"color99FF99\">(+0.5)</span> Magic Damage and slowing surrounding enemy units by 60% for 1/1.5/2/2.5/3 second(s). <br><br>Rocket Jump's damage is increased if Tristana lands on an enemy unit affected with Explosive Charge (25% bonus per stack), and explodes the Explosive Charge immediately if it has 4 stacks. <br><br>On a champion kill or assist, Rocket Jump's cooldown resets.",
+                "after": "Tristana fires at the ground to propel her to target location, dealing 60/110/160/210/260 <span class=\"color99FF99\">(+0.5)</span> Magic Damage and slowing surrounding enemy units by 60% for 1/1.5/2/2.5/3 second(s).<br><br>Kills, Assists, and max stack Explosive Charge detonations on Champions reset Rocket Jump's cooldown."
+            },
+            {
+                "title": "E - Explosive Charge",
+                "before": "<span class=\"colorFF9900\">Passive: </span>Enemies explode when slain by Tristana's basic attacks, dealing 50/75/100/125/150 <span class=\"color99FF99\">(+0.25)</span> Magic Damage to nearby enemies.<br><br><span class=\"colorFF9900\">Active: </span>Places a charge on target enemy or turret that explodes after 4 seconds, dealing 60/70/80/90/100 <span class=\"colorFF8C00\">(+{{ f1 }})</span> <span class=\"color99FF99\">(+0.5)</span> Physical Damage to nearby enemies. <br><br>Tristana's basic attacks against the target increase the charge's damage by 30%, stacking up to 4 times. If Tristana basic attacks a target with 4 stacks, the charge explodes immediately. The detonation radius is twice as large if used on a turret.",
+                "after": "<span class=\"colorFF9900\">Passive: </span>Enemies explode when slain by Tristana's basic attacks, dealing 50/75/100/125/150 <span class=\"color99FF99\">(+0.25)</span> Magic Damage to nearby enemies.<br><br><span class=\"colorFF9900\">Active: </span>Places a charge on target enemy or turret that explodes after 4 seconds, dealing 60/70/80/90/100 <span class=\"colorFF8C00\">(+{{ f1 }})</span> <span class=\"color99FF99\">(+0.5)</span> Physical Damage to nearby enemies. Tristana's attacks and abilities increase the charge's damage by 30%, up to 4 times.<br><br>At 4 stacks, the charge explodes immediately. The detonation radius is twice as large if used on a turret."
+            },
+            {
+                "title": "attackdamage",
+                "before": 51.54,
+                "after": 56.96
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            }
+        ],
+        "Hecarim": [
+            {
+                "title": "mp",
+                "before": 277.2,
+                "after": 327.2
+            },
+            {
+                "title": "mpperlevel",
+                "before": 40,
+                "after": 37
+            }
+        ],
+        "Sivir": [
+            {
+                "title": "W - Cooldown",
+                "before": "9/8/7/6/5",
+                "after": "12/10.5/9/7.5/6"
+            },
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "5/6/7/8/9",
+                    "10/20/30/40/50",
+                    "50/55/60/65/70",
+                    "3",
+                    "60/70/80/90/100",
+                    "1",
+                    "0.5/0.55/0.6/0.65/0.7"
+                ],
+                "after": [
+                    "",
+                    "5/6/7/8/9",
+                    "10/20/30/40/50",
+                    "50/55/60/65/70",
+                    "3",
+                    "60/70/80/90/100",
+                    "1",
+                    "0.5/0.55/0.6/0.65/0.7",
+                    "4.5/4.25/4/3.75/3.5"
+                ]
+            },
+            {
+                "title": "attackdamage",
+                "before": 52.04,
+                "after": 57.46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            },
+            {
+                "title": "attackspeedoffset",
+                "before": -0.05,
+                "after": 0
+            }
+        ],
+        "Lucian": [
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "3",
+                    "40/50/60",
+                    "2.5/3/3.5",
+                    "2.5"
+                ],
+                "after": [
+                    "",
+                    "3",
+                    "40/50/60",
+                    "2.5/3/3.5",
+                    "2.5",
+                    "20/25/30"
+                ]
+            },
+            {
+                "title": "R - The Culling",
+                "before": "Lucian moves freely while firing rapidly in a single direction for 3 seconds. His shots collide with the first enemy they hit and each do 40/50/60 <span class=\"color88FF88\">(+0.1)</span> <span class=\"colorFF8C00\">(+0.25)</span> physical damage. The number of shots scales with his Attack Speed.  The Culling does 400% damage to minions.<br><br>Lucian may use Relentless Pursuit during The Culling.<br><br>Reactivate The Culling to cancel early.",
+                "after": "Lucian moves freely while firing rapidly in a single direction for 3 seconds. His shots collide with the first enemy they hit and each do 40/50/60 <span class=\"color88FF88\">(+0.1)</span> <span class=\"colorFF8C00\">(+0.25)</span> physical damage.  The Culling does 400% damage to minions.<br><br>Lucian may use Relentless Pursuit during The Culling.<br><br>Reactivate The Culling to cancel early."
+            },
+            {
+                "title": "attackdamage",
+                "before": 52.04,
+                "after": 59.46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            },
+            {
+                "title": "mp",
+                "before": 298.88,
+                "after": 348.88
+            },
+            {
+                "title": "mpperlevel",
+                "before": 41,
+                "after": 38
+            }
+        ],
+        "Xerath": [
+            {
+                "title": "mp",
+                "before": 316.96,
+                "after": 366.96
+            },
+            {
+                "title": "mpperlevel",
+                "before": 47,
+                "after": 44
+            }
+        ],
+        "Teemo": [
+            {
+                "title": "R - Noxious Trap",
+                "before": "Tosses a stored mushroom as a trap that detonates if an enemy steps on it, spreading poison to nearby enemies that slows Movement Speed by 30/40/50%, reveals them and deals 200/325/450 <span class=\"color99FF99\">(+0.5)</span> magic damage over 4 seconds. <br><br>Traps last 5 minutes and take 1.5 seconds to arm and stealth. If a thrown trap lands on another trap, it will bounce up to <span class=\"colorFFFF99\">3/4/5</span> Teemos further before planting.<br><br>Teemo forages for a mushroom every <span class=\"colorFFFFFF\">{{ f1 }}</span> seconds, but he is only big enough to carry 3 at once.",
+                "after": "Tosses a stored mushroom as a trap that detonates if an enemy steps on it, spreading poison to nearby enemies that slows Movement Speed by 30/40/50%, reveals them and deals 200/325/450 <span class=\"color99FF99\">(+0.5)</span> magic damage over 4 seconds. <br><br>Traps last 5 minutes and take 1 second to arm and stealth. If a thrown trap lands on another trap, it will bounce up to <span class=\"colorFFFF99\">3/4/5</span> Teemos further before planting.<br><br>Teemo forages for a mushroom every <span class=\"colorFFFFFF\">{{ f1 }}</span> seconds, but he is only big enough to carry 3 at once."
+            }
+        ],
+        "Nasus": [
+            {
+                "title": "mp",
+                "before": 275.6,
+                "after": 325.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ],
+        "Renekton": [
+            {
+                "title": "W - Ruthless Predator",
+                "before": "Renekton's next attack strikes twice, stunning his target for 0.75 second and dealing 5/15/25/35/45 <span class=\"colorFF8C00\">(+1.5)</span> physical damage per hit (10/30/50/70/90 <span class=\"colorFF8C00\">(+2.25)</span> total damage).<br><br>Each hit applies on-hit effects and generates <span class=\"colorFF6633\">Fury</span>. Renekton generates an additional <span class=\"colorFF6633\">10 Fury</span> for hitting a champion.<br><br><span class=\"colorFF6633\">50 Fury Bonus:</span> Renekton attacks three times, stunning his target for 1.5 seconds and dealing a total of 15/45/75/105/135 <span class=\"colorFF8C00\">(+{{ f3 }})</span> damage.  No longer generates <span class=\"colorFF6633\">Fury</span>.",
+                "after": "Renekton's next attack strikes twice, stunning his target for 0.75 seconds and dealing 5/15/25/35/45 <span class=\"colorFF8C00\">(+1.5)</span> physical damage per hit (10/30/50/70/90 <span class=\"colorFF8C00\">(+2.25)</span> total damage).<br><br>Each hit applies on-hit effects and generates <span class=\"colorFF6633\">Fury</span>. Renekton generates an additional <span class=\"colorFF6633\">10 Fury</span> for hitting a champion.<br><br><span class=\"colorFF6633\">50 Fury Bonus:</span> Renekton attacks three times, stunning his target for 1.5 seconds and dealing a total of 15/45/75/105/135 <span class=\"colorFF8C00\">(+{{ f3 }})</span> damage.  No longer generates <span class=\"colorFF6633\">Fury</span>."
+            }
+        ],
+        "Draven": [
+            {
+                "title": "attackdamage",
+                "before": 50.38,
+                "after": 55.8
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3.5,
+                "after": 2.91
+            },
+            {
+                "title": "mp",
+                "before": 310.56,
+                "after": 360.56
+            },
+            {
+                "title": "mpperlevel",
+                "before": 42,
+                "after": 39
+            }
+        ],
+        "Shaco": [
+            {
+                "title": "E - Two-Shiv Poison",
+                "before": "<span class=\"colorFF9900\">Passive: </span>While Two-Shiv Poison is ready to cast, Shaco's basic attacks reduce the target's Movement Speed by 10/15/20/25/30% for 2 seconds. Also reduces minions' and monsters' chance to hit by 20/22.5/25/27.5/30% for 2 seconds.<br><br><span class=\"colorFF9900\">Active: </span>Deals 50/90/130/170/210 <span class=\"colorFF8C00\">(+1)</span> <span class=\"color99FF99\">(+1) </span>magic damage to target enemy and reduces their Movement Speed by 10/15/20/25/30% for 3 seconds.",
+                "after": "<span class=\"colorFF9900\">Passive: </span>While Two-Shiv Poison is ready to cast, Shaco's basic attacks apply Two-Shiv Poison for 2 seconds, reducing Movement Speed by 10/15/20/25/30% and also reducing Attack Speed by 20/22.5/25/27.5/30% if the target is a minion or monster.<br><br><span class=\"colorFF9900\">Active: </span>Deals 50/90/130/170/210 <span class=\"colorFF8C00\">(+1)</span> <span class=\"color99FF99\">(+1) </span>magic damage to target enemy and applies Two-Shiv Poison for 3 seconds."
+            }
+        ],
+        "Swain": [
+            {
+                "title": "mp",
+                "before": 324,
+                "after": 374
+            },
+            {
+                "title": "mpperlevel",
+                "before": 50,
+                "after": 47
+            }
+        ],
+        "Ziggs": [
+            {
+                "title": "mp",
+                "before": 334,
+                "after": 384
+            },
+            {
+                "title": "mpperlevel",
+                "before": 50,
+                "after": 47
+            }
+        ],
+        "Talon": [
+            {
+                "title": "mp",
+                "before": 327.2,
+                "after": 377.2
+            },
+            {
+                "title": "mpperlevel",
+                "before": 40,
+                "after": 37
+            }
+        ],
+        "Janna": [
+            {
+                "title": "mpregen",
+                "before": 9,
+                "after": 11.5
+            }
+        ],
+        "FiddleSticks": [
+            {
+                "title": "mp",
+                "before": 350.12,
+                "after": 400.12
+            },
+            {
+                "title": "mpperlevel",
+                "before": 59,
+                "after": 56
+            }
+        ],
+        "Zilean": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Soraka": [
+            {
+                "title": "mpregen",
+                "before": 9,
+                "after": 11.5
+            }
+        ],
+        "Jinx": [
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "30/40/50/60/70",
+                    "100",
+                    "75/100/125/150/175",
+                    "20"
+                ],
+                "after": [
+                    "",
+                    "30/40/50/60/70",
+                    "100",
+                    "75/100/125/150/175",
+                    "20",
+                    "15"
+                ]
+            },
+            {
+                "title": "Q - Switcheroo!",
+                "before": "Jinx swaps weapons.<br><br><span class=\"colorFF9900\">Fishbones, the Rocket Launcher:</span> Basic attacks deal 110% Damage to Jinx's target and all nearby enemies, gain 75/100/125/150/175 range, and drain Mana. <br><br><span class=\"colorFF9900\">Pow-Pow, the Minigun:</span> Basic attacks grant additional Attack Speed for 2.5 seconds. This effect stacks up to 3 times for a total bonus of {{ f4 }}% (bonus scales with spell rank and Jinx's level). Stacks fall off one at a time and only benefit Jinx's first attack after switching to Rocket Launcher.",
+                "after": "Jinx swaps weapons.<br><br><span class=\"colorFF9900\">Fishbones, the Rocket Launcher:</span> Basic attacks deal 110% Damage to Jinx's target and all nearby enemies, gain 75/100/125/150/175 range, fire 15% slower, and drain Mana.<br><br><span class=\"colorFF9900\">Pow-Pow, the Minigun:</span> Basic attacks grant bonus Attack Speed for 2.5 seconds. This effect stacks up to 3 times for a total bonus of <span class=\"colorFFFFFF\">{{ f4 }}%</span> (bonus scales with spell rank and Jinx's level). Stacks fall off one at a time and only benefit Jinx's first attack after switching to Rocket Launcher."
+            },
+            {
+                "title": "attackdamage",
+                "before": 53.04,
+                "after": 58.46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            }
+        ],
+        "Yorick": [],
+        "Urgot": [
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "550/700/850",
+                    "60/90/120",
+                    "200/250/300"
+                ],
+                "after": [
+                    "",
+                    "550/700/850",
+                    "30/40/50",
+                    "200/250/300",
+                    "5"
+                ]
+            },
+            {
+                "title": "R - Hyper-Kinetic Position Reverser",
+                "before": "Urgot targets an enemy champion and channels his Hyper-Kinetic Position Reverser for 1 second, swapping locations with his target afterward. His target is suppressed for the duration of the channel.<br><br>Urgot gains 60/90/120 Armor and Magic Resist during and after the channel, and his target is slowed by 40% for 3 seconds after being swapped.",
+                "after": "Urgot targets an enemy champion and channels his Hyper-Kinetic Position Reverser for 1 second, swapping locations with his target afterward. His target is suppressed for the duration of the channel.<br><br>Urgot takes 30/40/50% reduced damage for 5 seconds beginning at the start of the channel, and his target is slowed by 40% for 3 seconds after being swapped."
+            }
+        ],
+        "Kindred": [
+            {
+                "title": "attackdamage",
+                "before": 49,
+                "after": 54
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 2.2,
+                "after": 1.7
+            },
+            {
+                "title": "hpregen",
+                "before": 10,
+                "after": 7
+            }
+        ],
+        "MissFortune": [
+            {
+                "title": "Q - Double Up",
+                "before": "Miss Fortune fires a shot through an enemy to hit another enemy behind them, dealing 20/35/50/65/80 <span class=\"colorFF8C00\">(+{{ f1 }})</span> <span class=\"color99FF99\">(+0.35)</span> physical damage to the first target and 40/70/100/130/160 <span class=\"colorFF8C00\">(+{{ f2 }})</span> <span class=\"color99FF99\">(+0.5)</span> physical damage to the second. <br><br>If the first target is killed, the second hit will critically strike and deal 150% damage instead.",
+                "after": "Miss Fortune fires a bouncing shot through an enemy, dealing 20/35/50/65/80 <span class=\"colorFF8C00\">(+{{ f1 }})</span> <span class=\"color99FF99\">(+0.35)</span> physical damage to the first target and 40/70/100/130/160 <span class=\"colorFF8C00\">(+{{ f2 }})</span> <span class=\"color99FF99\">(+0.5)</span> damage to the second. Both apply on-hit effects.<br><br>If the first shot kills its target, the second deals 50% increased damage."
+            },
+            {
+                "title": "W - Cooldown",
+                "before": "12",
+                "after": "8"
+            },
+            {
+                "title": "W - Cost",
+                "before": "30/35/40/45/50",
+                "after": "30"
+            },
+            {
+                "title": "W - Damage",
+                "before": [
+                    "",
+                    "20/30/40/50/60",
+                    "5",
+                    "6",
+                    "2/4/6/8/10"
+                ],
+                "after": [
+                    "",
+                    "60/75/90/105/120",
+                    "60/70/80/90/100",
+                    "3",
+                    "1",
+                    "25"
+                ]
+            },
+            {
+                "title": "W - Strut",
+                "before": "<span class=\"colorFF9900\">Passive:</span> Basic attacks deal <span class=\"colorFF8C00\">{{ f1 }}</span> bonus magic damage, stacking cumulatively up to {{ f3 }} times for a maximum of <span class=\"colorFF8C00\">{{ f2 }}</span> bonus magic damage.<br><br><span class=\"colorFF9900\">Active: </span>Gains 20/30/40/50/60% Attack Speed for the next 6 seconds and automatically grants Strut.",
+                "after": "<span class=\"colorFF9900\">Passive:</span> After 5 seconds of not taking direct damage, Miss Fortune gains 25 Movement Speed. After another 5 seconds, this bonus increases to 60/70/80/90/100.<br><br><span class=\"colorFF9900\">Active:</span> Fully activates Strut's Movement Speed and grants 60/75/90/105/120% Attack Speed for 3 seconds.<br><br>Love Taps prolong the Attack Speed bonus duration by 1 seconds (doubled vs. champions)."
+            },
+            {
+                "title": "E - Make It Rain",
+                "before": "Miss Fortune fires hundreds of bullets into the air that rain down at a location after 0.5 seconds, dealing 90/145/200/255/310 <span class=\"color99FF99\">(+0.8)</span> magic damage over 2 seconds and slowing enemies hit by 40/45/50/55/60%.",
+                "after": "Miss Fortune reveals an area, raining down bullets that deal 90/145/200/255/310 <span class=\"color99FF99\">(+0.8)</span> magic damage over 2 seconds and slow enemies hit by 40/45/50/55/60%."
+            },
+            {
+                "title": "R - Damage",
+                "before": [
+                    "",
+                    "50/75/125",
+                    "1/2/3",
+                    "10/17.5/25"
+                ],
+                "after": [
+                    "",
+                    "",
+                    "12/14/16",
+                    "3",
+                    "75"
+                ]
+            },
+            {
+                "title": "R - Bullet Time",
+                "before": "Miss Fortune channels a barrage of bullets into a cone in front of her for 2 seconds, dealing 50/75/125 <span class=\"color99FF99\"><span class=\"colorFF8C00\">(+0.35)</span>(+0.2)</span> physical damage and applying a stack of Impure Shots with each bullet (<span class=\"colorFF8C00\">{{ f2 }}</span> additional magic damage for each stack already applied to the target).<br><br><span class=\"colorFF9900\">Passive:</span> The stack limit for Impure Shots is increased by 1/2/3.",
+                "after": "Miss Fortune channels a barrage of bullets for 3 seconds, dealing <span class=\"colorFF8C00\">(+0.35)</span> <span class=\"color99FF99\">(+0.2)</span> physical damage per wave (12/14/16 waves total).<br><br>Bullet Time can critically strike for {{ f3 }}% damage.<br><br><span class=\"colorF50F00\">Total Damage: {{ f2 }}</span>"
+            },
+            {
+                "title": "attackdamage",
+                "before": 49.54,
+                "after": 46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 1
+            },
+            {
+                "title": "attackspeedperlevel",
+                "before": 3.01,
+                "after": 3
+            },
+            {
+                "title": "mp",
+                "before": 275.84,
+                "after": 325.84
+            },
+            {
+                "title": "mpperlevel",
+                "before": 38,
+                "after": 35
+            }
+        ],
+        "Blitzcrank": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Twitch": [
+            {
+                "title": "Q - Damage",
+                "before": [
+                    "",
+                    "30/40/50/60/70",
+                    "4/5/6/7/8",
+                    "20",
+                    "1.5",
+                    "4.5"
+                ],
+                "after": [
+                    "",
+                    "30/40/50/60/70",
+                    "4/5/6/7/8",
+                    "20",
+                    "1.5",
+                    "4.5",
+                    "5",
+                    "3"
+                ]
+            },
+            {
+                "title": "Q - Ambush",
+                "before": "After 1.5 seconds of not taking damage or after 4.5 seconds, Twitch turns invisible for 4/5/6/7/8 seconds.<br><br>Twitch gains 20% Movement Speed while invisible and gains 30/40/50/60/70% Attack Speed for 5 seconds after coming out of invisibility.",
+                "after": "After 1.5 seconds of not taking damage, Twitch is stealthed and gains 20% Movement Speed for up to 4/5/6/7/8 seconds. Upon leaving stealth, he gains 30/40/50/60/70% Attack Speed for 5 seconds.<br><br>When an enemy champion affected by Deadly Venom dies, Ambush's cooldown is reset."
+            },
+            {
+                "title": "R - Cooldown",
+                "before": "120/110/100",
+                "after": "90"
+            },
+            {
+                "title": "R - Cost",
+                "before": "100/125/150",
+                "after": "100"
+            },
+            {
+                "title": "R - Damage"
+            },
+            {
+                "title": "R - Rat-Ta-Tat-Tat",
+                "before": "For 7 seconds Twitch gains 300 Attack Range, 20/30/40 Attack Damage and his basic attacks become piercing bolts that deal 20% less damage to subsequent targets down to a minimum of 40% damage.",
+                "after": "For 5 seconds Twitch gains 300 Attack Range and 20/30/40 Bonus Attack Damage.<br><br>For the duration, his basic attacks become piercing bolts that deal 20% less damage to subsequent targets, down to a minimum of 40% damage."
+            },
+            {
+                "title": "attackdamage",
+                "before": 49.04,
+                "after": 55.46
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            }
+        ],
+        "Taric": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Kassadin": [
+            {
+                "title": "mp",
+                "before": 347.6,
+                "after": 397.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 70,
+                "after": 67
+            }
+        ],
+        "Velkoz": [
+            {
+                "title": "mp",
+                "before": 325.6,
+                "after": 375.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ],
+        "Zyra": [
+            {
+                "title": "mpregen",
+                "before": 6,
+                "after": 8.5
+            }
+        ],
+        "Nami": [
+            {
+                "title": "mpregen",
+                "before": 9,
+                "after": 11.5
+            }
+        ],
+        "Ezreal": [
+            {
+                "title": "Q - Cooldown",
+                "before": "6/5.5/5/4.5/4",
+                "after": "6.5/6/5.5/5/4.5"
+            },
+            {
+                "title": "Q - Damage"
+            },
+            {
+                "title": "E - Cooldown",
+                "before": "19/17/15/13/11",
+                "after": "19/17.5/16/14.5/13"
+            },
+            {
+                "title": "attackdamage",
+                "before": 50.24,
+                "after": 55.66
+            },
+            {
+                "title": "attackdamageperlevel",
+                "before": 3,
+                "after": 2.41
+            },
+            {
+                "title": "mp",
+                "before": 310.6,
+                "after": 360.6
+            },
+            {
+                "title": "mpperlevel",
+                "before": 45,
+                "after": 42
+            }
+        ]
+    },
+    "newSkins": [
+        {
+            "id": 15008,
+            "name": "Victorious Sivir",
+            "num": 8
+        }
+    ],
+    "removedSkins": [],
+    "items": {},
+    "images": {
+        "Ryze": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Ryze.png",
+        "Sion": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Sion.png",
+        "Karma": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Karma.png",
+        "Nautilus": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Nautilus.png",
+        "Lux": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Lux.png",
+        "Olaf": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Olaf.png",
+        "Anivia": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Anivia.png",
+        "Maokai": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Maokai.png",
+        "Morgana": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Morgana.png",
+        "Evelynn": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Evelynn.png",
+        "Fizz": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Fizz.png",
+        "Sona": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Sona.png",
+        "KogMaw": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/KogMaw.png",
+        "Ashe": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Ashe.png",
+        "Lulu": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Lulu.png",
+        "Alistar": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Alistar.png",
+        "Vayne": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Vayne.png",
+        "Varus": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Varus.png",
+        "Jayce": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Jayce.png",
+        "Syndra": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Syndra.png",
+        "Pantheon": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Pantheon.png",
+        "Corki": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Corki.png",
+        "Azir": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Azir.png",
+        "Caitlyn": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Caitlyn.png",
+        "Galio": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Galio.png",
+        "Veigar": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Veigar.png",
+        "Graves": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Graves.png",
+        "Irelia": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Irelia.png",
+        "Elise": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Elise.png",
+        "Jax": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Jax.png",
+        "Kalista": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Kalista.png",
+        "TahmKench": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/TahmKench.png",
+        "Brand": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Brand.png",
+        "Quinn": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Quinn.png",
+        "Tristana": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Tristana.png",
+        "Hecarim": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Hecarim.png",
+        "Sivir": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Sivir.png",
+        "Lucian": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Lucian.png",
+        "Xerath": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Xerath.png",
+        "Teemo": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Teemo.png",
+        "Nasus": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Nasus.png",
+        "Renekton": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Renekton.png",
+        "Draven": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Draven.png",
+        "Shaco": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Shaco.png",
+        "Swain": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Swain.png",
+        "Ziggs": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Ziggs.png",
+        "Talon": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Talon.png",
+        "Janna": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Janna.png",
+        "FiddleSticks": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/FiddleSticks.png",
+        "Zilean": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Zilean.png",
+        "Soraka": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Soraka.png",
+        "Jinx": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Jinx.png",
+        "Yorick": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Yorick.png",
+        "Urgot": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Urgot.png",
+        "Kindred": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Kindred.png",
+        "MissFortune": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/MissFortune.png",
+        "Blitzcrank": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Blitzcrank.png",
+        "Twitch": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Twitch.png",
+        "Taric": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Taric.png",
+        "Kassadin": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Kassadin.png",
+        "Velkoz": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Velkoz.png",
+        "Zyra": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Zyra.png",
+        "Nami": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Nami.png",
+        "Ezreal": "http://ddragon.leagueoflegends.com/cdn/5.22.2/img/champion/Ezreal.png"
+    }
+}

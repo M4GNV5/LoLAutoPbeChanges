@@ -1,6 +1,7 @@
 var fs = require("fs");
 var Riot = require("./riotApi.js");
 var compare = require("./compare.js");
+var prepareData = require("./prepareData.js");
 var config = require("./config.json");
 
 var riot = new Riot(config.devKey);
@@ -11,7 +12,8 @@ doIt("runes", end);
 doIt("masteries", end); //500 :(
 doIt("spells", end);
 
-var data = {};
+var before = {};
+var after = {};
 var diff = {};
 var count = 5;
 
@@ -23,35 +25,28 @@ function end(err)
     count--;
     if(count == 0)
     {
-        fs.writeFile("./../data/diff.json", JSON.stringify(diff, undefined, 4), function(err)
-        {
-            if(err)
-                throw err;
-        });
-        fs.writeFile("./../data/data.json", JSON.stringify(data, undefined, 4), function(err)
-        {
-            if(err)
-                throw err;
-        });
+        var data = prepareData(before, after, diff);
+        fs.writeFileSync("./../data.json", JSON.stringify(data, undefined, 4));
     }
 }
 
 function doIt(type, cb)
 {
-    riot[type](config.region, function(err, before)
+    riot[type](config.region, function(err, _before)
     {
         if(err)
             return cb(err);
 
-        riot[type]("pbe", function(err, after)
+        riot[type]("pbe", function(err, _after)
         {
             if(err)
                 return cb(err);
 
-            var _diff = compare(before, after);
+            var _diff = compare(_before, _after);
 
             diff[type] = _diff;
-            data[type] = after;
+            after[type] = _after;
+            before[type] = _before;
 
             cb();
         });
